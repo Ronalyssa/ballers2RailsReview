@@ -1,0 +1,7 @@
+<h1> Here is the list of all the Ballers </h1>
+
+<ul>
+  <% @ballers.each do |baller| %>
+    <li><%= link_to baller.name, baller_path(baller) %></li>
+  <% end %>
+</ul>

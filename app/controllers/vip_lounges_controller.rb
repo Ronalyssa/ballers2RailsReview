@@ -1,0 +1,2 @@
+class VipLoungesController < ApplicationController
+end

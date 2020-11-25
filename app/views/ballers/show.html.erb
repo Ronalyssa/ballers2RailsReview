@@ -1,0 +1,6 @@
+<h1> This is <%= @baller.name %>'s Page! </h1>
+<h1> <%= @baller.name %> is <%= @baller.age %> years old! </h1>
+
+<%= link_to "Edit Baller", edit_baller_path(@baller) %><br>
+<%= link_to "Delete Baller", baller_path(@baller), method: :delete, data: { confirm: "Are you sure?" } %><br>
+<%= link_to "Homepage", ballers_path %>

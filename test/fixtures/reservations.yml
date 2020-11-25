@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  baller_id: 1
+  vip_lounge_id: 1
+
+two:
+  baller_id: 1
+  vip_lounge_id: 1
