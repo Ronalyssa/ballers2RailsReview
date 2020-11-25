@@ -42,6 +42,6 @@ class BallersController < ApplicationController
   private
 
   def baller_params
-    params.require(:baller).permit(:name, :age)
+    params.require(:baller).permit(:name, :age, :vip_lounge_ids)
   end
 end

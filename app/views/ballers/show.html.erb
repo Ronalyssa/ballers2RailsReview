@@ -1,5 +1,13 @@
 <h1> This is <%= @baller.name %>'s Page! </h1>
 <h1> <%= @baller.name %> is <%= @baller.age %> years old! </h1>
+<h1> 
+  <%= @baller.name %> is a VIP at  
+  <ul>
+  <% @baller.vip_lounges.each do |lounge| %> 
+    <li><%= lounge.name %></li>
+  <% end %>
+  </ul>
+  </h1>
 
 <%= link_to "Edit Baller", edit_baller_path(@baller) %><br>
 <%= link_to "Delete Baller", baller_path(@baller), method: :delete, data: { confirm: "Are you sure?" } %><br>

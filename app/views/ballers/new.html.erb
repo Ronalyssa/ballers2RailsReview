@@ -2,7 +2,13 @@
 <%= form_for(@baller) do |f| %>
   <%= f.label :name %>
   <%= f.text_field :name %>
+  <br>
+
   <%= f.label :age %>
   <%= f.text_field :age %>
+  <br>
+
+  <%= f.collection_select :vip_lounge_ids, VipLounge.all, :id, :name %>
+  <br>
   <%= f.submit %>
   <% end %>
