@@ -1,24 +1,17 @@
-# README
+# Rails Practice
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Baller's have many VipLounges 
+## VipLounge's have many Ballers 
+## A Reservation belongs to a Baller and to a VipLounge
 
-Things you may want to cover:
+### Create a rails app that allows you to:
 
-* Ruby version
+* See a list of Ballers
 
-* System dependencies
+* See a single Baller's info
 
-* Configuration
+* Create a new Baller
 
-* Database creation
+* Update a Baller
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Delete a Baller

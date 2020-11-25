@@ -1,2 +1,0 @@
-class VipLoungesController < ApplicationController
-end
